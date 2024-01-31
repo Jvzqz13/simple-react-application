@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 3rem;
+}
+
+.movieCard {
+  border: 3px solid rgb(110, 109, 109);
+  background-color: lightgray;
+  border-radius: 3.5rem; 
+  width: 60%;
+  margin: auto;
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }

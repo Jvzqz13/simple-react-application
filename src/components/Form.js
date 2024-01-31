@@ -23,9 +23,8 @@ function Form(props){
 
     return (
         <div>
-
             {/* <h1> The Form Component </h1> */}
-            <form onSubmit={handleSubmit}> 
+            <form onSubmit={handleSubmit} > 
                 <input type="text" name="searchterm" value={formData.searchterm} onChange={handleChange} />
                 <input type="submit" value="submit" />
             </form>
