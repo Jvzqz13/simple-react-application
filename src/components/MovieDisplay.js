@@ -2,7 +2,9 @@
 
 function MovieDisplay({ movie }){
 
+    
     const loaded = () => { 
+
         return(
             <div className="movieCard">
                 {/* <h1> The MovieDisplay Component </h1> */}

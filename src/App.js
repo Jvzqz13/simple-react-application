@@ -26,7 +26,7 @@ function App() {
 
   };
 
-  useEffect (() => { getMovie("Cluecless") },[]);
+  useEffect (() => { getMovie("edward scissorhands") },[]);
 
 
   return (
